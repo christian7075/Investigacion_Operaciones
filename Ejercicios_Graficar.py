@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Definir los datos de la función
 def f(x):
-    return 5 - 2*x
+    return 5 - 2*x #Retornar la Funcion que se desee Graficar
 
 x = np.linspace(-5, 5, 100)
 y = f(x)
